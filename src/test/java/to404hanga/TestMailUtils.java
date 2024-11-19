@@ -10,7 +10,7 @@ public class TestMailUtils {
     @Test
     public void testSend() {
         Set<String> set = new HashSet<>();
-        set.add("1023948565@qq.com");
+        set.add("***********@qq.com");
         MailUtils.sendEmail(set, "测试标题", "测试内容");
     }
 }
